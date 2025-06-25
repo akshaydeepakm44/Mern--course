@@ -1,0 +1,70 @@
+
+
+    .subscribe-button{
+        background-color: #bc0000; /* Green */
+        color: white;
+        border :  none ;  
+        height: 36px;
+        width: 105px;
+        border-radius :  2px ;  
+        cursor :  pointer ;  
+        margin :  10px ;
+        transition: 1s;
+
+    }
+
+    button:hover {
+        background-color: #ff0000; /* Darker green on hover */
+    }
+
+    button:active {
+        background-color: #990000; /* Even darker green when clicked */
+    }
+
+    .join-button {
+        background-color: #ffffff; /* Green */
+        border-color: #3370ff; /* Green */
+        border-style: solid;
+        border-radius: 2px;
+        border-width: 1px;
+        color: rgb(6,95,212); /* White */
+        cursor: pointer;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        transition : background-color 0.15s, 
+        color 0.15s
+    }
+
+    .join-button:hover {
+        background-color: rgb(6,95,212); /* Darker green on hover */
+        color: rgb(255, 255, 255); /* Change text color on hover */
+        box-shadow: 70px 40px 89px rgba(255, 0, 0, 0.1);
+
+    }
+
+    .join-button:active {
+        background-color: rgb(6,95,212); /* Even darker green when clicked */
+
+    }
+
+     .tweet-button {
+        background-color: #1da1f2; /* Twitter blue */
+        color: white;
+        border: none;
+        border-radius: 18px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tweet-button:hover {
+        background-color: #68a7ff; /* Darker blue on hover */
+        color: black;
+        box-shadow: 70px 40px 89px rgba(255, 0, 0, 0.1);
+
+}
